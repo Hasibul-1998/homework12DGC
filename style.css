@@ -1,0 +1,410 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E2DEDA;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.head{
+    width: 100%;
+    height: 140px;
+    background-color: #1E5225;
+}
+.head img{
+    border-bottom: 5px solid red;
+    height: 100%;
+    width: 100%;
+    
+}
+.menu-bar{
+    height: 50px;
+    width: 100%;
+    background-color: #5BB53B;    
+}
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+}
+.menu-bar ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.menu-bar ul li a{
+    display: block;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px 15px 15px 25px;
+    
+}
+.menu-bar ul li a:hover{
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.headingimage{
+    height: 300px;
+}
+.notice{
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+    margin: 0 0 10px 0;
+}
+.notice p{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+    width: 10%;
+    box-sizing: border-box;
+    float: left;
+}
+.notice marquee{
+    width: 90%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.welcome{
+    width: 67%;
+    min-height: 250px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px 2px 0 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.welcome h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+}
+.welcome img{
+    height: 100px;
+    width: 200px;
+    display: inline;
+}
+.welcome p{
+    display: inline;
+    font-size: 30px;
+}
+.sidemenu{
+    width: 30%;
+    height: 300px;
+    float: right;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+ .sidemenu div{
+    background-color: #FF0000;
+    height: 30px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+     margin-bottom: 20px;
+     cursor: pointer;
+    
+}
+.message{
+    width: 69%;
+    height: 200px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.message1{
+    width: 47%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-right: 10px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 15px 0 0;
+    border-radius: 10px;
+}
+.message1 h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.message1 p{
+    font-size: 20px;
+    margin: 0;
+}
+.message2{
+    width: 47%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-right: 10px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+}
+.message2 h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.message2 p{
+    font-size: 20px;
+    margin: 0;
+}
+.noticeboard{
+    height: 200px;
+    width: 29%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.noticeboard h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.noticeboard marquee{
+    height: 150px;
+}
+.noticecontent{
+    font-size: 15px;
+    margin: 0 0 0 10px;
+}
+.noticecontent p a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.committe{
+    width: 67%;
+    min-height: 250px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px 2px 0 5px;
+    border-radius: 10px;
+    margin: 20px 0 0 10px;
+}
+.committe h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.form{
+    width: 29%;
+    height: 170px;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 10px;
+    margin: 20px 15px 0 0;
+}
+.form h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.formcontent a{
+    font-size: 20px;
+    margin: 5px 0 0 20px;
+    text-decoration: none;
+}
+.formcontent a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.link{
+    width: 29%;
+    height: 170px;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 10px;
+    margin: 20px 15px 0 0;
+}
+.link h2{
+    font-size: 15px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.linkcontent a{
+    font-size: 15px;
+    margin: 5px 0 0 10px;
+    text-decoration: none;
+}
+.linkcontent a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.empty{
+    width: 68%;
+    height: 170px;
+    float: left;
+}
+.website{
+    width: 29%;
+    height: 120px;
+    background-color: #FFFFFF;
+    float: right;
+    border-radius: 10px;
+    margin: 20px 15px 10px 0;
+    text-transform: capitalize;
+
+}
+.website p{
+    font-size: 20px;
+    margin: 5px 0 0 20px;
+    cursor: pointer;
+}
+.gallery{
+    width: 98%;
+    height: 230px;
+    background-color: #FFFFFF;
+    margin: 3px 10px 0 10px;
+    border-radius: 10px;
+    clear: both;
+}
+.gallery h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.section{
+    height: 500px;
+    width: 98%;
+    margin: 20px 10px 10px 10px;
+}
+.calender{
+    width: 31%;
+    height: 400px;
+    margin: 30px 40px 0 0;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 10px;
+}
+.calender h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.calender img{
+    height: 100%;
+    width: 100%;
+}
+.map{
+    width: 31%;
+    height: 400px;
+    margin: 30px 0 0 5px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 10px;
+}
+.map h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.contact{
+    width: 31%;
+    height: 400px;
+    margin: 30px 0 0 45px;
+    background-color: #FFFFFF;
+    float: left;
+    border-radius: 10px;
+}
+.contact h2{
+    font-size: 20px;
+    background-color: #1E5225;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 8px 0 8px 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.contact img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 60px; 
+    background-color: #1E5225;
+    clear: both;
+    border-top: 5px solid red;
+}
+.footer p{
+    color: white;
+    margin-left: 20px;
+}
+.footer p spam{
+    color: blue;
+    text-transform: uppercase;
+}
